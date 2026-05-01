@@ -1,0 +1,9 @@
+/* App specific styles if any, otherwise leave empty or minimal */
+.content-wrapper {
+  animation: slideIn 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
